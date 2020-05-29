@@ -51,86 +51,119 @@ arm.flex();                             // 3)
 arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
+
+
 //  1)
-//  Noun:
-//  action 1:
+//  Noun:       leg                     // 1)
+//  action 1:   the leg bends           // 2)
+leg.bend();                             // 3)
+//  action 2:   the leg shakes          // 2)
+leg.shake();                            // 3)
+//  action 3:   the leg kicks upward    // 2)
+leg.kickUpward();                       // 4) demonstrates CamelCase 
 
-//  action 2:
 
-//  action 3:
- 
 //  2)
-//  Noun:
-//  action 1:
+//  Noun:       tornado                     // 1)
+//  action 1:   the tornado swirls          // 2)
+tornado.swirl();                            // 3)
+//  action 2:   the tornado touches down    // 2)        
+tornado.touchDown();                        // 4) demonstrates CamelCase 
+//  action 3:   the tornado moves East      // 2)
+tornado.moveEast();                         // 4) demonstrates CamelCase 
 
-//  action 2:
 
-//  action 3:
- 
 //  3)
-//  Noun:
-//  action 1:
+//  Noun:       bird
+//  action 1:   the bird flies
+bird.fly();
+//  action 2:   the bird chirps
+bird.chirp();
+//  action 3:   the bird builds nest
+bird.buildNest();
 
-//  action 2:
 
-//  action 3:
- 
 //  4)
-//  Noun:
-//  action 1:
+//  Noun:       detective
+//  action 1:   the detective investigates
+detective.investigate();
+//  action 2:   the detective takes notes
+detective.takeNotes();
+//  action 3:   the detective report findings
+detective.reportFindings();
 
-//  action 2:
 
-//  action 3:
- 
-//  5)
-//  Noun:
-//  action 1:
+//  5)          
+//  Noun:       movie
+//  action 1:   the movie entertains
+movie.entertain();
+//  action 2:   the movie tells stories
+movie.tellStory();
+//  action 3:   the movie informs the public
+movie.informPublic();
 
-//  action 2:
 
-//  action 3:
- 
 //  6)
-//  Noun:
-//  action 1:
+//  Noun:       watch
+//  action 1:   the watch clicks
+watch.click();
+//  action 2:   the watch displays time
+watch.displayTime();
+//  action 3:   the watch measures time
+watch.measureTime();
 
-//  action 2:
 
-//  action 3:
- 
 //  7)
-//  Noun:
-//  action 1:
+//  Noun:       finger
+//  action 1:   the finger moves
+finger.move();
+//  action 2:   the finger points outward
+finger.pointOutward();
+//  action 3:   the finger scratches my face
+finger.scratchFace();
 
-//  action 2:
 
-//  action 3:
- 
-//  8)
-//  Noun:
-//  action 1:
+//  8)  
+//  Noun:       boat
+//  action 1:   the boat floats
+boat.float();
+//  action 2:   the boat carries merchandise
+boat.carryMerchandise();
+//  action 3:   the boat turns right
+boat.turnRight():
 
-//  action 2:
 
-//  action 3:
- 
 //  9)
-//  Noun:
-//  action 1:
+//  Noun:       musician
+//  action 1:   the musician plays
+musician.play();
+//  action 2:   the musician takes requests
+musician.takeRequest():
+//  action 3:   the musician leaves the stage
+musician.leaveStage();
 
-//  action 2:
 
-//  action 3:
- 
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       wind
+//  action 1:   the wind blows
+wind.blow();
+//  action 2:   the wind stops
+wind.stop();
+//  action 3:   the wind blows up skirts
+wind.blowSkirt();
  
+
+//  11)
+//  Noun:       door handle
+//  action 1:   the door handle makes a squeaky noise
+doorHandle.squeakNoise();
+//  action 2:   the door handle rotates counterclockwise
+doorHandle.rotateCounterClockWise();
+//  action 3:   the door handle unlocks the door
+doorHandle.unlockDoor();
+
+
+
 
 
 #endif
