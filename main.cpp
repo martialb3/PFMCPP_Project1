@@ -153,6 +153,18 @@ wind.stop();
 wind.blowSkirt();
  
 
+//  11)
+//  Noun:       door handle
+//  action 1:   the door handle makes a squeaky noise
+doorHandle.squeakNoise();
+//  action 2:   the door handle rotates counterclockwise
+doorHandle.rotateCounterClockWise();
+//  action 3:   the door handle unlocks the door
+doorHandle.unlockDoor();
+
+
+
+
 
 #endif
 
